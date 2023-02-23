@@ -1,8 +1,8 @@
 // variables, constantes, consola (log, )
 
-let pulpos_mundial = "Paul";
+let pulpos_mundial = "Charls";
 
-var pulpos_boys = "Timoty";
+var pulpos_boys = "Isaac";
 
 const precio_comida_pulpos = 99.99;
 
@@ -97,6 +97,6 @@ const boton = ___("imagen");
 boton.onclick = () => {
     console.log("Click!");
     ___("contenedor_imagen").innerHTML = 
-    '<img src="https://pbs.twimg.com/media/ErpZ3_dXYAQ3BA_.jpg" alt="imagen de un pulpo enojado">';
+    '<img src="https://pbs.twimg.com/media/ErpZ3_dXYAQ3BA_.jpg" alt="angry yeah">';
 };
 
