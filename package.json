@@ -1,0 +1,23 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "Construcción de Software",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charlie-Davalos/TC2005B_CharlieDavalos.git"
+  },
+  "keywords": [
+    "node",
+    "tec"
+  ],
+  "author": "Charlie Davalos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charlie-Davalos/TC2005B_CharlieDavalos/issues"
+  },
+  "homepage": "https://github.com/Charlie-Davalos/TC2005B_CharlieDavalos#readme"
+}
