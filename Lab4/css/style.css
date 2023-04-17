@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.parrafo{
+    color:blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#span2:hover{
+    color: brown;
+}
+
+#span1:hover{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+}
