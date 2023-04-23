@@ -1,0 +1,6 @@
+Implementación de conexión con la base de datos desde Modelos:
+Model => https://github.com/DenisseDB/SmarTech2/blob/Autorizacion/models/usuarioModel.js
+DB => https://github.com/DenisseDB/SmarTech2/blob/Autorizacion/util/database.js
+
+
+
