@@ -1,0 +1,95 @@
+<%- include('templates/head.ejs') %>
+<header class="hero" >
+    <div class="hero-body has-text-centered">
+        <h1 class="title">
+            Laboratorio 24
+        </h1>
+        <p class="subtitle">
+            Carlos Davalos A01706041
+        </p>
+    </div>
+</header>
+<nav class="level">
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="heading">Ruta con Forma</p>
+            <a href="/ruta-forms/datos"><p class="title is-primary">Forma</p></a>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="heading">Ruta 2</p>
+            <a href="/imagenes/perritos"><p class="title">¡Perritos!</p></a>
+        </div>
+    </div>
+        <div class="level-item has-text-centered">
+        <div>
+            <p class="heading">Ruta 3</p>
+            <a href="/imagenes/apicultura"><p class="title">Apicultura</p></a>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="heading">Ruta 4</p>
+            <a href="https://www.tec.mx"><p class="title">Tec de Monterrey</p></a>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="heading">Ruta 5</p>
+            <a href="/index/creativo"><p class="title">Creativo</p></a>
+        </div>
+    </div>
+</nav>
+<main>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">
+                Contenido informativo
+            </h1>
+            <p class="subtitle">
+                Laboratorio con el motor <strong>EJS</strong>!
+            </p>
+            <p class="content">
+                La gran mayoria de vista en esta página web está hecha con EJS. Excepto el link a Tec de Monterrey.
+            </p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <article class="media">
+                <figure class="media-left">
+                <p class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                </p>
+                </figure>
+                <div class="media-content">
+                <div class="content">
+                    <p>
+                    <strong><%= nombre %> </strong> <small> @<%= correo %> </small> <small>31m</small>
+                    <br>
+                        El nombre y el correo de la persona que se depliega aquí arriba ^^^^ Va cambiando si llenas la información de la ruta Forma. Sé felíz cambiando el usuario a tu nombre. 
+                    </p>
+                </div>
+                <nav class="level is-mobile">
+                    <div class="level-left">
+                    <a class="level-item">
+                        <span class="icon is-small"><i class="fas fa-reply"></i></span>
+                    </a>
+                    <a class="level-item">
+                        <span class="icon is-small"><i class="fas fa-retweet"></i></span>
+                    </a>
+                    <a class="level-item">
+                        <span class="icon is-small"><i class="fas fa-heart"></i></span>
+                    </a>
+                    </div>
+                </nav>
+                </div>
+                <div class="media-right">
+                <button class="delete"></button>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+<%- include('templates/foot.ejs') %>
